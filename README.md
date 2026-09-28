@@ -5,7 +5,7 @@ Honest Reddit scraping. Free to run: you pay only Apify platform compute. Deep h
 **Run it on Apify:** [apify.com/themineworks/reddit-scraper](https://apify.com/themineworks/reddit-scraper)
 **Docs, FAQ and pricing:** [themineworks.com/actors/reddit-scraper](https://themineworks.com/actors/reddit-scraper/)
 
-**Price:** $2.00 per 1,000 result on Apify's free plan, down to $1.00 on higher plans, plus a $0.005 start fee per run. Failed and empty results are never charged.
+**Price:** From $1.00 per 1,000 results on Apify's higher plans ($2.00 on the free plan), plus a $0.005 start fee per run. Failed and empty results are never charged.
 
 ## What it returns
 
@@ -13,7 +13,7 @@ Honest Reddit scraping. Free to run: you pay only Apify platform compute. Deep h
 * Full nested comment trees with replies
 * Deep historical backfill via cursor
 * 4 modes: subreddit, search, user, post
-* Zero charge on empty runs
+* Empty results are never charged
 
 ## Quick start
 
@@ -147,7 +147,7 @@ Yes. The scraper returns full nested comment trees including replies to replies.
 
 ### What does pay-per-result mean for the Reddit scraper?
 
-You pay only for posts that are successfully delivered. If a run returns zero results due to a private subreddit or network issue, you pay nothing.
+You pay only for posts that are successfully delivered. If a run returns zero results due to a private subreddit or network issue, no results are charged, only the small start fee.
 
 ### How far back can I scrape Reddit posts?
 
